@@ -1,0 +1,55 @@
+.container {
+    max-width: 600px;
+}
+
+.btn {
+    background: #43d9be;
+    color: white;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn:hover,
+.btn:focus {
+    background: #1eaa90;
+    color: white;
+    outline: none !important;
+}
+
+.username {
+    font-weight: 800;
+}
+
+.time {
+    font-size: 0.7em;
+    color: #999;
+}
+
+.chat-window{
+    max-width: 600px;
+    max-height: 50vh;
+    overflow: scroll;
+}
+
+.chat-window::-webkit-scrollbar {
+    display: none;
+}
+
+.popups-wrapper {
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.popups{
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 10% auto;
+    background: white;
+    position: relative;
+    padding: 20px;
+}
